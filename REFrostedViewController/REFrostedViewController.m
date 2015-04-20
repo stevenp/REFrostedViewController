@@ -87,8 +87,8 @@
 {
     self = [self init];
     if (self) {
-        _contentViewController = contentViewController;
-        _menuViewController = menuViewController;
+        [self setContentViewController:contentViewController];
+        [self setMenuViewController:menuViewController];
     }
     return self;
 }
